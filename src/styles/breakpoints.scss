@@ -1,0 +1,60 @@
+$breakpoint-xsmall: 375px;
+$breakpoint-small: 599px;
+$breakpoint-medium: 900px;
+$breakpoint-large: 1200px;
+$breakpoint-medium-large: 1520px;
+$breakpoint-xlarge: 1900px;
+$breakpoint-sm-h: 650px;
+// Extra small devices
+@mixin xs {
+  @media (max-width: #{$breakpoint-xsmall}) {
+    @content;
+  }
+}
+
+// Small devices
+@mixin sm {
+  @media (max-width: #{$breakpoint-small}) {
+    @content;
+  }
+}
+// Greater than Small devices
+@mixin gt-sm {
+  @media (min-width: #{$breakpoint-small + 1}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (max-width: #{$breakpoint-medium}) {
+    @content;
+  }
+}
+// Large devices
+@mixin lg {
+  @media (max-width: #{$breakpoint-large}) {
+    @content;
+  }
+}
+
+// Medium Large devices
+@mixin mlg {
+  @media (max-width: #{$breakpoint-medium-large}) {
+    @content;
+  }
+}
+
+// XLarge devices
+@mixin xlg {
+  @media (max-width: #{$breakpoint-xlarge}) {
+    @content;
+  }
+}
+
+// Small height
+@mixin sm-h {
+  @media (max-height: #{$breakpoint-sm-h}) {
+    @content;
+  }
+}

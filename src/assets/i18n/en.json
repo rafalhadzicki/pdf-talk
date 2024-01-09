@@ -1,0 +1,32 @@
+{
+  "homePage": {
+    "title": "PDF talk",
+    "description": "PDF talk is a web application that allows you to upload your PDF files and ask questions about them.",
+    "noConversations": "You have no conversations yet."
+  },
+  "dropzone": {
+    "title": "Drop your PDF here",
+    "description": "We can accept only .pdf files that are less than 30MB.",
+    "button": "Submit PDF",
+    "uploadSuccess": "Upload successful!",
+    "submitPdf": "Submit PDF",
+    "error": "Something went wrong. Press the button to try again."
+  },
+  "notFound": {
+    "title": "404",
+    "description": "You have found a secret place.",
+    "subtitle": "Unfortunately, this is only a 404 page. You may have mistyped the address, or the page has been moved to another URL.",
+    "button": "Go back"
+  },
+  "chat": {
+    "ask": "Ask any document related question",
+    "error": "Something went wrong. Please try again later.",
+    "generate": "Generate PDF of the conversation",
+    "submit": "Submit",
+    "emptyField": "This field is required",
+    "fileReady": "Your file is ready!",
+    "download": "Download",
+    "open": "Open",
+    "fileName": "conversation"
+  }
+}
